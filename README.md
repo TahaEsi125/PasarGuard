@@ -33,8 +33,8 @@ ssh root@YOUR_SERVER_IP
 ### 2️⃣ دریافت پروژه
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RoXeT-VpN.git
-cd RoXeT-VpN
+git clone https://github.com/TahaEsi125/PasarGuard.git
+cd PasarGuard
 ```
 
 > به‌جای `YOUR_USERNAME` نام کاربری GitHub خودت را قرار بده.
