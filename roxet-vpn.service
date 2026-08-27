@@ -1,0 +1,15 @@
+[Unit]
+Description=RoXeT VpN Telegram Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/RoXeT-VpN
+ExecStart=/opt/RoXeT-VpN/.venv/bin/python main.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
